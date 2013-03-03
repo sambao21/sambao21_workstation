@@ -2,7 +2,6 @@
 
 pushd `pwd`
 if rvm --version 2>/dev/null; then
-  rvm use default
   gem install soloist
 else
   sudo gem install soloist

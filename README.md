@@ -9,6 +9,8 @@ Execute the following on the command line:
 ## Development
 `bootstrap_dev.sh` is the bootstrap file to use when trying out new recipes, developing new recipes, or contributing updates to pivotal_workstation recipes. It will use `/cookbooks_dev` directory instead of the normal `/cookbooks`.
 
+When trying out new recipes, after testing it, *don't* forget to copy the recipes into the normal `bootstrap.sh`.
+
 When contributing to pivotal_workstation, make the changes against my [forked repo](https://github.com/sambao21/pivotal_workstation). Then be sure to submit a pull request back to pivotal_workstation.
 
 `bash <(curl -s https://raw.github.com/sambao21/sambao21_workstation/master/bootstrap_dev.sh)`

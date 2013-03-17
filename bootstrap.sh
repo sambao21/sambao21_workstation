@@ -19,6 +19,7 @@ recipes:
 - pivotal_workstation::chrome
 - pivotal_workstation::pg_admin
 - pivotal_workstation::ack
+- pivotal_workstation::gem_setup
 EOF
 
 if [[ -d pivotal_workstation ]]; then

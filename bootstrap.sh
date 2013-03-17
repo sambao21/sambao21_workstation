@@ -13,8 +13,12 @@ cat > soloistrc <<EOF
 cookbook_paths:
 - $PWD
 recipes:
+- pivotal_workstation::create_var_chef_cache
+- pivotal_workstation::homebrew
 - pivotal_workstation::firefox
 - pivotal_workstation::chrome
+- pivotal_workstation::pg_admin
+- pivotal_workstation::ack
 EOF
 
 if [[ -d pivotal_workstation ]]; then

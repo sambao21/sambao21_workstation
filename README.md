@@ -2,7 +2,10 @@
 A cookbook of recipes for sambao21's OSX workstation.
 
 ## Usage
-Execute the following on the command line:
+
+1. First install [Xcode](http://itunes.apple.com/us/app/xcode/id497799835) and Command Line Tools (under Preferences > Downloads)
+
+2. Execute the following on the command line:
 
 `bash <(curl -s https://raw.github.com/sambao21/sambao21_workstation/master/bootstrap.sh)`
 

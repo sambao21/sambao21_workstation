@@ -15,12 +15,10 @@ cookbook_paths:
 recipes:
 - pivotal_workstation::create_var_chef_cache
 - pivotal_workstation::homebrew
+- pivotal_workstation::git
 - pivotal_workstation::firefox
 - pivotal_workstation::chrome
-- pivotal_workstation::pg_admin
-- pivotal_workstation::ack
-- sambao21_workstation::postgresapp
-- sambao21_workstation::ctags
+- pivotal_workstation::bettertouchtool
 EOF
 
 if [[ -d pivotal_workstation ]]; then

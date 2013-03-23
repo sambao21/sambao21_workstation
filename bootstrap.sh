@@ -15,11 +15,11 @@ cookbook_paths:
 recipes:
 - pivotal_workstation::create_var_chef_cache
 - pivotal_workstation::homebrew
+- pivotal_workstation::git
 - pivotal_workstation::firefox
 - pivotal_workstation::chrome
-- pivotal_workstation::pg_admin
+- pivotal_workstation::bettertouchtool
 - pivotal_workstation::ack
-- pivotal_workstation::gem_setup
 EOF
 
 if [[ -d pivotal_workstation ]]; then

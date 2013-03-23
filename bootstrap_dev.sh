@@ -19,6 +19,7 @@ recipes:
 - pivotal_workstation::firefox
 - pivotal_workstation::chrome
 - pivotal_workstation::bettertouchtool
+- pivotal_workstation::dropbox
 EOF
 
 if [[ -d pivotal_workstation ]]; then

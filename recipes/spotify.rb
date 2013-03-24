@@ -6,7 +6,7 @@ unless File.exists?("/Applications/Spotify.app")
   end
 
   execute "unzip SpotifyApp.zip" do
-    command "unzip #{Chef::Config[:file_cache_path]}/SpotifyApp.zip -d #{Chef::Config[:file_cache_path]}/"
+    command "unzip -o #{Chef::Config[:file_cache_path]}/SpotifyApp.zip -d #{Chef::Config[:file_cache_path]}/"
     user WS_USER
   end
 

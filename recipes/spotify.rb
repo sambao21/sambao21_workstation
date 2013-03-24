@@ -11,7 +11,7 @@ unless File.exists?("/Applications/Spotify.app")
   end
 
   execute "Install Spotify.app to /Applications" do
-    command "open #{Chef::Config[:file_cache_path]}/Install\ Spotify.app"
+    command "open #{Chef::Config[:file_cache_path]}/Install\\ Spotify.app"
     user WS_USER
     group "admin"
   end

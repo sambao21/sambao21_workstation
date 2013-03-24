@@ -20,6 +20,8 @@ recipes:
 - pivotal_workstation::chrome
 - pivotal_workstation::bettertouchtool
 - pivotal_workstation::ack
+- pivotal_workstation::dropbox
+- pivotal_workstation::evernote
 EOF
 
 if [[ -d pivotal_workstation ]]; then

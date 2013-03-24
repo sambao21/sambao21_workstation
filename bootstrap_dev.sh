@@ -19,8 +19,10 @@ recipes:
 - pivotal_workstation::firefox
 - pivotal_workstation::chrome
 - pivotal_workstation::bettertouchtool
+- pivotal_workstation::ack
 - pivotal_workstation::dropbox
 - pivotal_workstation::evernote
+- sambao21_workstation::sublime_text
 EOF
 
 if [[ -d pivotal_workstation ]]; then

@@ -26,7 +26,6 @@ recipes:
 - sambao21_workstation::google_drive
 - sambao21_workstation::spotify
 - sambao21_workstation::iterm2
-- sambao21_workstation::show_hidden_files
 EOF
 
 if [[ -d pivotal_workstation ]]; then

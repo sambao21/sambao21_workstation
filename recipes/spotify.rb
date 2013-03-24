@@ -16,9 +16,9 @@ unless File.exists?("/Applications/Spotify.app")
     group "admin"
   end
 
-  ruby_block "test to see if Spotify.app was installed" do
-    block do
-      raise "Spotify.app was not installed" unless File.exists?("/Applications/Spotify.app")
-    end
-  end
+#  ruby_block "test to see if Spotify.app was installed" do
+#    block do
+#      raise "Spotify.app was not installed" unless File.exists?("/Applications/Spotify.app")
+#    end
+#  end
 end

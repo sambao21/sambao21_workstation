@@ -25,6 +25,7 @@ recipes:
 - sambao21_workstation::sublime_text
 - sambao21_workstation::google_drive
 - sambao21_workstation::spotify
+- pivotal_workstation::iterm2
 EOF
 
 if [[ -d pivotal_workstation ]]; then

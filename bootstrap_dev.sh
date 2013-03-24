@@ -22,10 +22,14 @@ recipes:
 - pivotal_workstation::ack
 - pivotal_workstation::dropbox
 - pivotal_workstation::evernote
+- pivotal_workstation::sourcetree
 - sambao21_workstation::sublime_text
 - sambao21_workstation::google_drive
 - sambao21_workstation::spotify
 - sambao21_workstation::iterm2
+- sambao21_workstation::vimrc
+- sambao21_workstation::gitignore
+- sambao21_workstation::gitconfig_global
 EOF
 
 if [[ -d pivotal_workstation ]]; then

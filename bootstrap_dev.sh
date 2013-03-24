@@ -23,6 +23,8 @@ recipes:
 - pivotal_workstation::dropbox
 - pivotal_workstation::evernote
 - sambao21_workstation::sublime_text
+- sambao21_workstation::google_drive
+- sambao21_workstation::spotify
 EOF
 
 if [[ -d pivotal_workstation ]]; then

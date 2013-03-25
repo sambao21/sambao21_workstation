@@ -30,6 +30,7 @@ recipes:
 - sambao21_workstation::vimrc
 - sambao21_workstation::gitignore_global
 - sambao21_workstation::gitconfig
+- sambao21_workstation::dock_preferences
 EOF
 
 if [[ -d pivotal_workstation ]]; then

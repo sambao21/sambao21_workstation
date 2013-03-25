@@ -28,8 +28,8 @@ recipes:
 - sambao21_workstation::spotify
 - sambao21_workstation::iterm2
 - sambao21_workstation::vimrc
-- sambao21_workstation::gitignore
-- sambao21_workstation::gitconfig_global
+- sambao21_workstation::gitignore_global
+- sambao21_workstation::gitconfig
 EOF
 
 if [[ -d pivotal_workstation ]]; then

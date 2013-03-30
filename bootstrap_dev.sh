@@ -13,9 +13,8 @@ cat > soloistrc <<EOF
 cookbook_paths:
 - $PWD
 recipes:
-- pivotal_workstation::rvm
-- pivotal_workstation::gem_setup
-- pivotal_workstation::node_js
+- pivotal_workstation::zsh
+- pivotal_workstation::oh-my-zsh
 EOF
 
 if [[ -d pivotal_workstation ]]; then

@@ -23,6 +23,7 @@ recipes:
 - pivotal_workstation::dropbox
 - pivotal_workstation::evernote
 - pivotal_workstation::sourcetree
+- pivotal_workstation::bash_completion
 - sambao21_workstation::sublime_text
 - sambao21_workstation::google_drive
 - sambao21_workstation::spotify
@@ -32,6 +33,7 @@ recipes:
 - sambao21_workstation::gitconfig
 - sambao21_workstation::dock_preferences
 - sambao21_workstation::google_voice_and_video
+
 EOF
 
 if [[ -d pivotal_workstation ]]; then

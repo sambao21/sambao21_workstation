@@ -13,25 +13,7 @@ cat > soloistrc <<EOF
 cookbook_paths:
 - $PWD
 recipes:
-- pivotal_workstation::create_var_chef_cache
-- pivotal_workstation::homebrew
-- pivotal_workstation::git
-- pivotal_workstation::firefox
-- pivotal_workstation::chrome
-- pivotal_workstation::bettertouchtool
-- pivotal_workstation::ack
-- pivotal_workstation::dropbox
-- pivotal_workstation::evernote
-- pivotal_workstation::sourcetree
-- sambao21_workstation::sublime_text
-- sambao21_workstation::google_drive
-- sambao21_workstation::spotify
-- sambao21_workstation::iterm2
-- sambao21_workstation::vimrc
-- sambao21_workstation::gitignore_global
-- sambao21_workstation::gitconfig
-- sambao21_workstation::dock_preferences
-- sambao21_workstation::google_voice_and_video
+- pivotal_workstation::bash_completion
 EOF
 
 if [[ -d pivotal_workstation ]]; then

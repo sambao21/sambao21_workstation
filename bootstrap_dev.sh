@@ -31,6 +31,7 @@ recipes:
 - sambao21_workstation::gitignore_global
 - sambao21_workstation::gitconfig
 - sambao21_workstation::dock_preferences
+- sambao21_workstation::google_voice_and_video
 EOF
 
 if [[ -d pivotal_workstation ]]; then

@@ -16,11 +16,11 @@ recipes:
 - pivotal_workstation::create_var_chef_cache
 - pivotal_workstation::homebrew
 - pivotal_workstation::git
+- pivotal_workstation::oh_my_zsh
 - pivotal_workstation::rvm
 - pivotal_workstation::gem_setup
 - pivotal_workstation::node_js
 - pivotal_workstation::ack
-- pivotal_workstation::bash_completion
 - pivotal_workstation::firefox
 - pivotal_workstation::chrome
 - pivotal_workstation::bettertouchtool
@@ -36,6 +36,7 @@ recipes:
 - sambao21_workstation::spotify
 - sambao21_workstation::google_voice_and_video
 - sambao21_workstation::dock_preferences
+- sambao21_workstation::active_corners
 
 EOF
 

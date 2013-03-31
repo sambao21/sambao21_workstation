@@ -2,6 +2,7 @@
 
 pushd `pwd`
 if rvm --version 2>/dev/null; then
+  rvm --version
   gem install soloist
 else
   sudo gem install soloist
@@ -55,6 +56,5 @@ else
   git clone https://github.com/sambao21/sambao21_workstation.git
 fi
 
-rvm use 1.9.3
 soloist
 popd

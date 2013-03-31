@@ -14,7 +14,7 @@ cookbook_paths:
 - $PWD
 recipes:
 - pivotal_workstation::zsh
-- pivotal_workstation::oh-my-zsh
+- pivotal_workstation::oh_my_zsh
 EOF
 
 if [[ -d pivotal_workstation ]]; then

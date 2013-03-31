@@ -1,8 +1,9 @@
 #!/bin/bash
 
 pushd `pwd`
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 if rvm --version 2>/dev/null; then
-  rvm 1.9.3
+  rvm use 1.9.3
   gem install soloist
 else
   sudo gem install soloist

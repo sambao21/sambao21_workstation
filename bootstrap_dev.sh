@@ -13,7 +13,8 @@ cat > soloistrc <<EOF
 cookbook_paths:
 - $PWD
 recipes:
-- sambao21_workstation::active_corners
+#- pivotal_workstation::rvm
+#- pivotal_workstation::gem_setup
 EOF
 
 if [[ -d pivotal_workstation ]]; then

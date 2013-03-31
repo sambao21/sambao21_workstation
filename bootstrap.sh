@@ -55,5 +55,6 @@ else
   git clone https://github.com/sambao21/sambao21_workstation.git
 fi
 
+rvm use 1.9.3
 soloist
 popd

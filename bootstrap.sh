@@ -20,7 +20,11 @@ recipes:
 - pivotal_workstation::git
 - sambao21_workstation::gitignore_global
 - sambao21_workstation::gitconfig
+- pivotal_workstation::rvm
+- pivotal_workstation::gem_setup
 - pivotal_workstation::oh_my_zsh
+- sambao21_workstation::sambao21_zsh_theme
+- sambao21_workstation::zshrc
 - pivotal_workstation::node_js
 - pivotal_workstation::ack
 - sambao21_workstation::vimrc

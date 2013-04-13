@@ -26,6 +26,7 @@ recipes:
 - sambao21_workstation::sambao21_zsh_theme
 - sambao21_workstation::zshrc
 - pivotal_workstation::node_js
+- sambao21_workstation::global_npm_packages
 - pivotal_workstation::ack
 - sambao21_workstation::vimrc
 - sambao21_workstation::sublime_text

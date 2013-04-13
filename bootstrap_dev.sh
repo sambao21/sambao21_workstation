@@ -15,6 +15,7 @@ cat > soloistrc <<EOF
 cookbook_paths:
 - $PWD
 recipes:
+- pivotal_workstation::create_var_chef_cache
 - sambao21_workstation::global_npm_packages
 EOF
 

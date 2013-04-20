@@ -8,5 +8,6 @@ node.override["sublime_text_packages"] = [
   {"name" => "Markdown Preview", "source" => "https://github.com/revolunet/sublimetext-markdown-preview"},
   {"name" => "SublimeCodeIntel", "source" => "http://github.com/Kronuz/SublimeCodeIntel"},
   {"name" => "LiveReload", "source" => "https://github.com/dz0ny/LiveReload-sublimetext2"},
-  {"name" => "JsFormat", "source" => "https://github.com/jdc0589/JsFormat"}
+  {"name" => "JsFormat", "source" => "https://github.com/jdc0589/JsFormat"},
+  {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"}
 ]

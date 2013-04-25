@@ -42,6 +42,7 @@ recipes:
 - pivotal_workstation::sourcetree
 - sambao21_workstation::dock_preferences
 - sambao21_workstation::active_corners
+- sambao21_workstation::sonos
 EOF
 
 if [[ -d pivotal_workstation ]]; then

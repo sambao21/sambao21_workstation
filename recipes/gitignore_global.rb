@@ -1,5 +1,7 @@
-template "#{WS_HOME}/.gitignore_global" do
-  source "gitignore_global.erb"
+# coding: UTF-8
+
+cookbook_file "#{WS_HOME}/.gitignore_global" do
+  source "dotgitignore_global"
   owner WS_USER
-  action :create_if_missing
+  mode "0600"
 end

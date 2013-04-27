@@ -1,3 +1,5 @@
+# coding: UTF-8
+
 include_recipe 'pivotal_workstation::sublime_text'
 
 sublime_package_path = ["#{WS_HOME}/Library/Application Support/Sublime Text 2", "Packages"]
@@ -8,8 +10,8 @@ begin
   t.cookbook "sambao21_workstation"
 end
 
-template File.expand_path("Auto Encoding for Ruby.sublime-settings", File.join(sublime_user_path)) do
-  source "sublime_text-Auto Encoding for Ruby.sublime-settings.erb"
+cookbook_file File.expand_path("Auto Encoding for Ruby.sublime-settings", File.join(sublime_user_path)) do
+  source "sublime_text-Auto Encoding for Ruby.sublime-settings"
   owner WS_USER
-  action :create_if_missing
+  mode "0600"
 end

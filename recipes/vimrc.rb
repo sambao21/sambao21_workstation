@@ -1,5 +1,7 @@
-template "#{WS_HOME}/.vimrc" do
-  source "vimrc.erb"
+# coding: UTF-8
+
+cookbook_file "#{WS_HOME}/.vimrc" do
+  source "dotvimrc"
   owner WS_USER
-  action :create_if_missing
+  mode "0600"
 end

@@ -16,7 +16,7 @@ cookbook_paths:
 - $PWD
 recipes:
 - pivotal_workstation::create_var_chef_cache
-- sambao21_workstation::sonos
+- sambao21_workstation::ctags
 EOF
 
 if [[ -d pivotal_workstation ]]; then

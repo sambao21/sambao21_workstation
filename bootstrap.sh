@@ -28,6 +28,7 @@ recipes:
 - pivotal_workstation::node_js
 - sambao21_workstation::global_npm_packages
 - pivotal_workstation::ack
+- sambao21_workstation::ctags
 - sambao21_workstation::vimrc
 - sambao21_workstation::sublime_text
 - sambao21_workstation::iterm2

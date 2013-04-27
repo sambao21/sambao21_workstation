@@ -1,5 +1,7 @@
-template "#{WS_HOME}/.gitconfig" do
-  source "gitconfig.erb"
+# coding: UTF-8
+
+cookbook_file "#{WS_HOME}/.gitconfig" do
+  source "dotgitconfig"
   owner WS_USER
-  action :create_if_missing
+  mode "0600"
 end

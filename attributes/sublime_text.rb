@@ -1,3 +1,5 @@
+# coding: UTF-8
+
 # Sort alphabetically by name
 node.override["sublime_text_packages"] = [
   {"name" => "Auto Encoding for Ruby", "source" => "https://github.com/elomarns/auto-encoding-for-ruby"},
@@ -9,5 +11,6 @@ node.override["sublime_text_packages"] = [
   {"name" => "SublimeCodeIntel", "source" => "http://github.com/Kronuz/SublimeCodeIntel"},
   {"name" => "LiveReload", "source" => "https://github.com/dz0ny/LiveReload-sublimetext2"},
   {"name" => "JsFormat", "source" => "https://github.com/jdc0589/JsFormat"},
-  {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"}
+  {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"},
+  {"name" => "CTags", "source" => "https://github.com/SublimeText/CTags"}
 ]

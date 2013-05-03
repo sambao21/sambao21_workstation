@@ -21,3 +21,9 @@ cookbook_file File.expand_path("Ruby.sublime-build", File.join(sublime_user_path
   owner WS_USER
   mode "0600"
 end
+
+cookbook_file File.expand_path("CTags.sublime-settings", File.join(sublime_user_path)) do
+  source "CTags.sublime-settings"
+  owner WS_USER
+  mode "0600"
+end

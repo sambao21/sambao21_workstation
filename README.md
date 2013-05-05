@@ -1,3 +1,6 @@
+# DEPRECATED
+I've moved everything over to [sambao21-sprout-wrap](https://github.com/sambao21/sambao21-sprout-wrap) to stay up to date with pivotal's move to [sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap)
+
 # sambao21_workstation
 A cookbook of recipes for sambao21's OSX workstation.
 
